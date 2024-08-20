@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worldy's Linktree</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out;
+        }
+        body.loaded {
+            opacity: 1;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #1e1e1e;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            color: #80d8ff;
+            font-size: 2.5rem;
+            transition: color 0.3s;
+        }
+        h1:hover {
+            color: #40c4ff;
+        }
+        h3 {
+            color: #b0bec5;
+            margin-bottom: 20px;
+            transition: color 0.3s;
+        }
+        h3:hover {
+            color: #e0e0e0;
+        }
+        .about-me {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #263238;
+            border-left: 4px solid #80d8ff;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .about-me:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(128, 216, 255, 0.2);
+        }
+        .links a {
+            display: block;
+            margin: 10px 0;
+            padding: 15px;
+            background-color: #80d8ff;
+            color: #121212;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+        }
+        .links a:hover {
+            background-color: #40c4ff;
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(64, 196, 255, 0.3);
+        }
+        .social-icons img, .tools-icons img {
+            margin: 10px;
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s, filter 0.3s;
+            filter: brightness(0.8);
+        }
+        .social-icons img:hover, .tools-icons img:hover {
+            transform: scale(1.2);
+            filter: brightness(1.2);
+        }
+        .stats img {
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            filter: brightness(0.8);
+        }
+        .stats img:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(128, 216, 255, 0.2);
+            filter: brightness(1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hi 👋, I'm Worldy</h1>
+        <h3>A passionate developer from Germany</h3>
+        <p><img src="https://komarev.com/ghpvc/?username=imworldy&label=Profile%20views&color=0e75b6&style=flat" alt="imworldy" /></p>
+
+        <div class="about-me">
+          <h3>About Me:</h3>
+          <p>Hi, I'm Worldy, a 14-year-old high school student with a big passion for coding, especially in Python. Ever since I got into technology, I've been fascinated by the endless possibilities programming offers. Whether I'm creating simple games, automating tasks, or exploring the basics of machine learning, I love diving into new projects and expanding my skills.</p>
+      </div>
+      
+
+        <h3>Connect with me:</h3>
+        <div class="social-icons">
+            <a href="https://twitter.com/imworldy" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" /></a>
+            <a href="https://youtube.com/@imworldy" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" /></a>
+            <a href="https://discord.gg/https://discord.gg/pTcey9Caem" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Discord" /></a>
+        </div>
+
+        <h3>Languages and Tools:</h3>
+        <div class="tools-icons">
+            <a href="https://www.arduino.cc/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="Arduino" /></a>
+            <a href="https://www.blender.org/" target="_blank"><img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="Blender" /></a>
+            <a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" /></a>
+            <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank"><img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="Illustrator" /></a>
+            <a href="https://kotlinlang.org" target="_blank"><img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="Kotlin" /></a>
+            <a href="https://www.linux.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" /></a>
+            <a href="https://nodejs.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" /></a>
+            <a href="https://www.photoshop.com/en" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="Photoshop" /></a>
+            <a href="https://www.python.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" /></a>
+            <a href="https://unity.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="Unity" /></a>
+            <a href="https://www.adobe.com/products/xd.html" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="Adobe XD" /></a>
+        </div>
+        <div class="stats">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs?username=imworldy&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+            <img src="https://github-readme-stats.vercel.app/api?username=imworldy&show_icons=true&locale=en" alt="GitHub Stats" />
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=imworldy&" alt="GitHub Streak" />
+        </div>
+    </div>
+    <script>
+        window.addEventListener('load', () => {
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html>
